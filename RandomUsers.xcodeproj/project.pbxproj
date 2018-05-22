@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35B4A38420B488C500374F4B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B4A38320B488C500374F4B /* User.swift */; };
+		35B4A38820B48A2200374F4B /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B4A38720B48A2200374F4B /* NetworkHelper.swift */; };
 		3B54BD4F20B4610600E283BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54BD4E20B4610600E283BE /* AppDelegate.swift */; };
 		3B54BD5120B4610600E283BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B54BD5020B4610600E283BE /* ViewController.swift */; };
 		3B54BD5420B4610600E283BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B54BD5220B4610600E283BE /* Main.storyboard */; };
@@ -92,6 +94,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35B4A38320B488C500374F4B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		35B4A38720B48A2200374F4B /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		3B54BD4B20B4610600E283BE /* RandomUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B54BD4E20B4610600E283BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B54BD5020B4610600E283BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -167,6 +171,8 @@
 				3B54BD5720B4610800E283BE /* LaunchScreen.storyboard */,
 				3B54BD5A20B4610800E283BE /* Info.plist */,
 				3B54BD7C20B46AA200E283BE /* UserCell.swift */,
+				35B4A38320B488C500374F4B /* User.swift */,
+				35B4A38720B48A2200374F4B /* NetworkHelper.swift */,
 			);
 			path = RandomUsers;
 			sourceTree = "<group>";
@@ -400,7 +406,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35B4A38420B488C500374F4B /* User.swift in Sources */,
 				3B54BD5120B4610600E283BE /* ViewController.swift in Sources */,
+				35B4A38820B48A2200374F4B /* NetworkHelper.swift in Sources */,
 				3B54BD4F20B4610600E283BE /* AppDelegate.swift in Sources */,
 				3B54BD7D20B46AA200E283BE /* UserCell.swift in Sources */,
 			);
