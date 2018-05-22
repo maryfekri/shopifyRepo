@@ -23,7 +23,7 @@ class ViewController: UITableViewController {
 	
 	override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 		let cell = UITableViewCell(style: .default, reuseIdentifier: "UserCell")
-		cell.textLabel?.text = "Shitty things"
+		cell.textLabel?.text = "First Last"
 		cell.imageView?.image = UIImage(named: "user")
 		return cell
 	}

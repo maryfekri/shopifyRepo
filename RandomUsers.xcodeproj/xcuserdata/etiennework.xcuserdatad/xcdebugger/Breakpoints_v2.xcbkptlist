@@ -10,13 +10,45 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RandomUsers/UserCell.swift"
-            timestampString = "548697555.266753"
+            timestampString = "548702633.739267"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "61"
             endingLineNumber = "61"
             landmarkName = "UserCell"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RandomUsers.UserCell.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;RandomUsers.UserCell&gt;"
+                  moduleName = "RandomUsers"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/etiennework/Dev/interviews/MAriFekri/shopifyRepo/RandomUsers/UserCell.swift"
+                  timestampString = "548702633.90091"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RandomUsers.UserCell.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;RandomUsers.UserCell&gt;"
+                  moduleName = "RandomUsers"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/etiennework/Dev/interviews/MAriFekri/shopifyRepo/RandomUsers/UserCell.swift"
+                  timestampString = "548702633.902876"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
