@@ -28,3 +28,40 @@ class ViewController: UITableViewController {
 		return cell
 	}
 }
+
+// Super awesome model!
+struct User: Codable {
+	var firstName: String
+	var lastName: String
+	var username: String
+	var password: String
+}
+
+extension User {
+	init(responseUser: ResponseUser) {
+		self.firstName = responseUser.name.first
+		self.lastName = responseUser.name.last
+		self.username = responseUser.login.username
+		self.password = responseUser.login.password
+	}
+}
+
+// Response Model
+struct UserResponse: Codable {
+	var results: [ResponseUser]
+}
+
+// Response User
+struct ResponseUser: Codable {
+	struct Name: Codable {
+		var first: String
+		var last: String
+	}
+	var name: Name
+	
+	struct Login: Codable {
+		var username: String
+		var password: String
+	}
+	var login: Login
+}
